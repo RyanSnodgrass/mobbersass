@@ -61,3 +61,31 @@ width: 70px;
 	background-color: rgb(242,240,236);
 
 }
+
+#box {  
+	max-width: 620px;
+  height: 400px;
+  box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+  border-bottom:2px solid #fff;
+  border-right:2px solid #fff;
+  margin-top:30px ;
+  background: url("./images/angry-mob.jpg");
+  background-size:cover;
+  border-radius:5px;
+  overflow:hidden;
+}
+
+#overlay {  
+	background:rgba(0,0,0,.75);
+  text-align: left;
+  color:white;
+  height: 2px;
+  padding:5px 0 50px 0;
+  opacity:0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  -webkit-transition: opacity .25s ease;}
+
+#box #overlay {
+	opacity:1;
+}
